@@ -1,0 +1,10 @@
+nav:
+    - agile
+    - planning
+    - design
+    - development
+    - integration
+    - testing
+    - release
+    - monitoring
+    - security

@@ -1,0 +1,7 @@
+mkdocs
+markdown
+mkdocs-material
+mkdocs-material-extensions
+mkdocs-awesome-pages-plugin
+pillow 
+cairosvg

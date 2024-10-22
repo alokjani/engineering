@@ -1,0 +1,5 @@
+nav:
+    - context-diagram.md
+    - container-diagram.md
+    - component-diagram.md
+    - code-diagram.md

@@ -1,0 +1,63 @@
+site_name: Engineering Blog
+site_url: https://alokjani.github.io/engineering
+site_description: Alok's Notes on Software Engineering
+theme:
+  name: material
+  features:
+    - navigation.indexes
+    - navigation.instant
+    - navigation.tabs.sticky
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  font:
+    text: Roboto
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: teal
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: teal
+      accent: lime
+#  logo: https://avatars.githubusercontent.com/u/2075362?v=4
+
+plugins:
+  - search
+  - social
+  - awesome-pages
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/alokjani
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/alokjani/
+
+markdown_extensions:
+  - meta
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.arithmatex:
+      generic: true     
+  - pymdownx.superfences
+  - pymdownx.pathconverter
+  - pymdownx.tabbed
+  - pymdownx.tasklist
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+
+copyright: |
+  &copy; 2023 <a href="https://github.com/alokjani"  target="_blank" rel="noopener">Alok Jani</a>

@@ -34,7 +34,6 @@ plugins:
   - search
   - social
   - awesome-pages
-  - mermaid2
 
 extra:
   social:

@@ -34,6 +34,7 @@ plugins:
   - search
   - social
   - awesome-pages
+  - mermaid2
 
 extra:
   social:
@@ -42,6 +43,7 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/alokjani/
 
+
 markdown_extensions:
   - meta
   - admonition
@@ -49,7 +51,6 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.arithmatex:
       generic: true     
-  - pymdownx.superfences
   - pymdownx.pathconverter
   - pymdownx.tabbed
   - pymdownx.tasklist
@@ -58,6 +59,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
+
 
 copyright: |
   &copy; 2023 <a href="https://github.com/alokjani"  target="_blank" rel="noopener">Alok Jani</a>
